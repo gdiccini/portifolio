@@ -6,7 +6,9 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <h1>Home</h1>
+      <div className="main-content">
+        <h1 className="title">Olá. Bem vindo ao meu</h1>
+      </div>
     </div>
   );
 }
