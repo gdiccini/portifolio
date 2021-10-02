@@ -1,0 +1,20 @@
+.navigation-bar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px 80px;
+}
+
+.links-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.links-list a {
+  padding: 20px;
+}
+
+.links-list a:hover {
+  background-color: #A8DADC;
+}
