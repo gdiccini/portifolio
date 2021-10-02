@@ -6,7 +6,11 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <h1>Home</h1>
+      <div>
+        <h1>Portifólio Giovani Diccini</h1>
+        <p>Sou estudante de programação Frontend / Backend. Tenho uma grande paixão por programação. Estou procurando oportunidades. Eu simplesmente amo o que faço.</p>
+
+      </div>
     </div>
   );
 }
