@@ -5,7 +5,8 @@
   background-color: #f1faee;
 }
 
-p {
+p, h2, h1, h3, div {
+  background-color: transparent;
   color: #1D3557;
 }
 
