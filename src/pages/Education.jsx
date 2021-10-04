@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-max-depth */
 import React from 'react';
 import { Flip, Zoom } from 'react-reveal';
 
@@ -19,8 +20,14 @@ export default function Education() {
         <Zoom>
           <div className="course-info">
             <div className="course-title">
+              <div className="title-container">
+                <h2>USP - Escola de Engenharia de Lorena</h2>
+                <h3>Engenharia de Materiais</h3>
+              </div>
+              <p className="finished-in">Finalizado em 03/2020</p>
             </div>
             <div className="course-description">
+              <p>Texto descrevendo o curso de engenharia de materiais</p>
             </div>
           </div>
         </Zoom>
@@ -32,10 +39,14 @@ export default function Education() {
         <Zoom>
           <div className="course-info">
             <div className="course-title">
-
+              <div className="title-container">
+                <h2>Trybe</h2>
+                <h3>Desenvolvimento web fullstack</h3>
+              </div>
+              <p className="finished-in">Previsão de conclusão 01/2022</p>
             </div>
             <div className="course-description">
-
+              <p>Texto descrevendo o curso da trybe</p>
             </div>
           </div>
         </Zoom>
